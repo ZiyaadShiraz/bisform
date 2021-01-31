@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bisform/static/css/main.408aff6d.chunk.css",
+    "main.js": "/bisform/static/js/main.02a0a0bd.chunk.js",
+    "main.js.map": "/bisform/static/js/main.02a0a0bd.chunk.js.map",
+    "runtime-main.js": "/bisform/static/js/runtime-main.6a6a44b7.js",
+    "runtime-main.js.map": "/bisform/static/js/runtime-main.6a6a44b7.js.map",
+    "static/css/2.150d169a.chunk.css": "/bisform/static/css/2.150d169a.chunk.css",
+    "static/js/2.9a483aff.chunk.js": "/bisform/static/js/2.9a483aff.chunk.js",
+    "static/js/2.9a483aff.chunk.js.map": "/bisform/static/js/2.9a483aff.chunk.js.map",
+    "index.html": "/bisform/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/bisform/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.408aff6d.chunk.css.map": "/bisform/static/css/main.408aff6d.chunk.css.map",
+    "static/js/2.9a483aff.chunk.js.LICENSE.txt": "/bisform/static/js/2.9a483aff.chunk.js.LICENSE.txt",
+    "static/media/buy.9011db84.svg": "/bisform/static/media/buy.9011db84.svg",
+    "static/media/invest.f4a846c3.svg": "/bisform/static/media/invest.f4a846c3.svg",
+    "static/media/sell.6318cb96.svg": "/bisform/static/media/sell.6318cb96.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a6a44b7.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.9a483aff.chunk.js",
+    "static/css/main.408aff6d.chunk.css",
+    "static/js/main.02a0a0bd.chunk.js"
+  ]
+}
