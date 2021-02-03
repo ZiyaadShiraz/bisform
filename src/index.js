@@ -11,3 +11,7 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
+
+// TODO:
+// put the buy invest and sell divs on the homepage to a new line when the screen is small. when big, just have it at the left side as current.
+// on the invest, you can create some coins in cinema and let it fall.

@@ -31,7 +31,7 @@ function Header() {
   return (
     <div>
       <Navbar className='header' bg='light' expand='sm'>
-        <Navbar.Brand as={Link} to='/'>
+        <Navbar.Brand as={Link} to='/bisform'>
           BisForm
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -41,13 +41,13 @@ function Header() {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to='/buy'>
-              <span className='initial-letter'>B</span>uy
+              Buy
             </Nav.Link>
             <Nav.Link as={Link} to='/invest'>
-              <span className='initial-letter'>I</span>nvest
+              Invest
             </Nav.Link>
             <Nav.Link as={Link} to='/sell'>
-              <span className='initial-letter'>S</span>ell
+              Sell
             </Nav.Link>
             <Nav.Link as={Link} to='/login'>
               Login
@@ -68,6 +68,7 @@ function Header() {
       </Navbar>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/bisform' component={Home} />
         <Route exact path='/buy' component={Buy} />
         <Route exact path='/invest' component={Invest} />
         <Route exact path='/sell' component={Sell} />

@@ -1,0 +1,23 @@
+.category-name-rule,
+.category-name {
+  display: inline-block;
+  margin: 0 4px;
+  vertical-align: middle;
+  color: grey;
+}
+
+.category-name-rule {
+  width: 5%;
+  border-top: 5px dotted grey;
+  border: dotted none none;
+  outline: none;
+}
+
+.section-heading {
+  margin: 20px 0;
+}
+
+.home-page-stores-div {
+  padding-bottom: 20px;
+}
+/* add media queries for the dashes.  */

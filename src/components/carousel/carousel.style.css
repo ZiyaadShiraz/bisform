@@ -1,0 +1,84 @@
+.buy-carousel-item,
+.invest-carousel-item,
+.sell-carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.buy-carousel-item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../../images/buy.svg');
+}
+
+.coursel-item-text-div {
+  color: white;
+  width: 90%;
+  padding-left: 5px;
+  min-width: 300px;
+}
+
+.coursel-item-text-div:hover {
+  text-decoration: none;
+  color: white;
+}
+/* .coursel-item-text-div {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 75%;
+} */
+
+/* .coursel-item-text-div:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+} */
+
+/* select all li that is a child of ul that is  a child of buy-coursel-item-text-div*/
+.coursel-item-text-div > ul > li {
+  margin: 15px 0;
+}
+
+.invest-carousel-item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/invest.svg');
+}
+
+.sell-carousel-item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../images/sell.svg');
+}
+
+@media only screen and (min-width: 700px) {
+  .buy-carousel-item,
+  .invest-carousel-item,
+  .sell-carousel-item {
+    height: 100%;
+  }
+
+  .coursel-item-text-div {
+    width: 40%;
+    padding: 20px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+}
