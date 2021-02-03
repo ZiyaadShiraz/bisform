@@ -6,8 +6,6 @@
   vertical-align: top;
   text-align: left;
   transition: 0.5s;
-  max-height: 450px;
-  overflow: hidden;
 }
 
 @media (hover: hover) {
@@ -16,12 +14,10 @@
     transform: scale(1.04);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    overflow: auto;
   }
 }
 
 .poster-image {
-  /* width: 90%; */
   max-height: 300px;
   max-width: 95%;
   text-align: right;
